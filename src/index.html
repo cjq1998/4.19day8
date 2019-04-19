@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="fonts2/iconfont.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <script src="js/flexible.js"></script>
+    <script src="js/better-scroll.js"></script>
+    <div class="wrap">
+        <header>
+            <div class="top">
+                <i class="iconfont icon-baidu"></i>
+                <div class="inp"><i class="iconfont icon-fangdajing"></i><input type="text" placeholder="请输入商品名称"></div>
+                <i class="iconfont icon-geren"></i>
+            </div>
+            <div class="tit">
+                <span class="active">推荐</span>
+                <span>手机</span>
+                <span>智能</span>
+                <span>电视</span>
+                <span>电脑</span>
+                <span>全屏幕</span>
+
+            </div>
+        </header>
+        <section>
+            <div>
+                <div class="cont">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+
+
+
+                <div class="img"><img src="img/1.jpg" alt=""></div>
+                <h5>每日精选</h5>
+                <div class="img"><img src="img/1.jpg" alt=""></div>
+                <h5>每日精选</h5>
+                <div class="img"><img src="img/1.jpg" alt=""></div>
+                <h5>每日精选</h5>
+                <div class="img"><img src="img/1.jpg" alt=""></div>
+
+            </div>
+        </section>
+        <footer>
+            <dl>
+                <dt><i class="iconfont icon-shouye"></i></dt>
+                <dd>首页</dd>
+            </dl>
+            <dl>
+                <dt><i class="iconfont icon-shouye"></i></dt>
+                <dd>首页</dd>
+            </dl>
+            <dl>
+                <dt><i class="iconfont icon-shouye"></i></dt>
+                <dd>首页</dd>
+            </dl>
+            <dl>
+                <dt><i class="iconfont icon-shouye"></i></dt>
+                <dd>首页</dd>
+            </dl>
+
+        </footer>
+    </div>
+    <script>
+        const bscroll = new BScroll("section", {
+            protoType: true,
+            click: true
+        })
+    </script>
+</body>
+
+</html>
